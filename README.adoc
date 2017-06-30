@@ -24,7 +24,7 @@ We have used the following approach to represent the Abstract Test Suite based o
 
 . There is one GML conformance class per application schema with non-abstract spatial object types. This is basically the "encoding schema validation test" from the TG conformance class in the data specifications. 
 
-. In order to make the IR conformance classes testable, they are understood as parameterized conformance classes with the encoding rule as the parameter. Note: The concept of parameterized conformance classes is described in the [https://portal.opengeospatial.org/files/?artifact_id=34762]OGC Specification Model.
+. In order to make the IR conformance classes testable, they are understood as parameterized conformance classes with the encoding rule as the parameter. Note: The concept of parameterized conformance classes is described in the https://portal.opengeospatial.org/files/?artifact_id=34762[OGC Specification Model].
 
 . All XPath expressions in the IR conformance classes are based on the default GML encoding rule. I.e., the current versions of the IR conformance classes are parametrized with the default GML encoding rule and have an indirect dependency to the GML application schema conformance class.  
 
