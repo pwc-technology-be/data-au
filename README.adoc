@@ -8,13 +8,13 @@ The specification specifies the following conformance classes:
 
 | *Conformance class* | *Standardization target*
 
-| [GML application schemas, Administrative Units](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-gml) | INSPIRE spatial data set encoded in GML, Administrative Units features
-| [Data Consistency, Administrative Units](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-dc) | INSPIRE spatial data set
-| [Application Schema, Administrative Units](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-as) | INSPIRE spatial data set
-| [Application Schema, Maritime Units](http://inspire.ec.europa.eu/id/ats/data-au/3.1/mu-as) | INSPIRE spatial data set
-| [Portrayal, Administrative Units](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-portrayal) | INSPIRE view service
-| [Reference Systems, Administrative Units](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-rs) | INSPIRE spatial data set
-| [Information Accessibility, Administrative Units](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-ia) | INSPIRE spatial data set
+| GML application schemas, Administrative Units[http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-gml] | INSPIRE spatial data set encoded in GML, Administrative Units features
+| Data Consistency, Administrative Units[http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-dc] | INSPIRE spatial data set
+| Application Schema, Administrative Units[http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-as] | INSPIRE spatial data set
+| Application Schema, Maritime Units[http://inspire.ec.europa.eu/id/ats/data-au/3.1/mu-as] | INSPIRE spatial data set
+| Portrayal, Administrative Units[http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-portrayal] | INSPIRE view service
+| Reference Systems, Administrative Units[http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-rs] | INSPIRE spatial data set
+| Information Accessibility, Administrative Units[http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-ia] | INSPIRE spatial data set
 
 |===
 
@@ -24,7 +24,7 @@ We have used the following approach to represent the Abstract Test Suite based o
 
 . There is one GML conformance class per application schema with non-abstract spatial object types. This is basically the "encoding schema validation test" from the TG conformance class in the data specifications. 
 
-. In order to make the IR conformance classes testable, they are understood as parameterized conformance classes with the encoding rule as the parameter. Note: The concept of parameterized conformance classes is described in the [OGC Specification Model](https://portal.opengeospatial.org/files/?artifact_id=34762).
+. In order to make the IR conformance classes testable, they are understood as parameterized conformance classes with the encoding rule as the parameter. Note: The concept of parameterized conformance classes is described in the [OGC Specification Model[https://portal.opengeospatial.org/files/?artifact_id=34762).
 
 . All XPath expressions in the IR conformance classes are based on the default GML encoding rule. I.e., the current versions of the IR conformance classes are parametrized with the default GML encoding rule and have an indirect dependency to the GML application schema conformance class.  
 
@@ -34,7 +34,7 @@ We have used the following approach to represent the Abstract Test Suite based o
 
 . All generic tests related to the GML encoding rule are moved to a new INSPIRE GML conformance class (that should become part of D2.7 in a future revision) and which all other TG conformance classes would normatively reference / depend on.
 
-. A general conformance class regarding [metadata for interoperability](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/interoperability-metadata) is specified in a separate Abstract Test Suite - for the Data Specification Template. The theme specific conformance class will depend upon the generic one and add additional test cases, if necessary.
+. A general conformance class regarding [metadata for interoperability[http://inspire.ec.europa.eu/id/ats/data/3.0rc3/interoperability-metadata) is specified in a separate Abstract Test Suite - for the Data Specification Template. The theme specific conformance class will depend upon the generic one and add additional test cases, if necessary.
    
 . The conformance classes with a different standardization target are not included for now. Only the requirements on a data set resource are included.
 
