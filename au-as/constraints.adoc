@@ -20,8 +20,8 @@ Automated tests:
 
 *Reference(s)*: 
 
-* [TG DS Template](http://inspire.ec.europa.eu/id/ats/data-au/3.2/au-as/README#ref_TG_DS_tmpl) IR requirement Article 4 (2)
-* [TG DS-AU](http://inspire.ec.europa.eu/id/ats/data-au/3.2/au-as/README#ref_TG_DS_AUanchor:ref_TG_DS_tmpl[])) 5.4
+* http://inspire.ec.europa.eu/id/ats/data-au/3.2/au-as/README#ref_TG_DS_tmpl[TG DS Template] IR requirement Article 4 (2)
+* http://inspire.ec.europa.eu/id/ats/data-au/3.2/au-as/README#ref_TG_DS_AU[TG DS-AU] 5.4
 
 *Test type*: Automated
 
@@ -32,22 +32,22 @@ Automated tests:
 
 |=== 
 
-*Identifier*  |  *Message text (parameters start with '$')*
-anchor:constraintViolation[]constraintViolation |  XML document '$filename', $featureType '$gmlid': The constraint '$constraint' is violated.
-anchor:brokenLink[]brokenLink |  XML document '$filename', $featureType '$gmlid': The property '$propertyName' has a value '$value' that cannot be retrieved using HTTP.
+| *Identifier*  |  *Message text (parameters start with '$')*
+| anchor:constraintViolation[]constraintViolation |  XML document '$filename', $featureType '$gmlid': The constraint '$constraint' is violated.
+| anchor:brokenLink[]brokenLink |  XML document '$filename', $featureType '$gmlid': The property '$propertyName' has a value '$value' that cannot be retrieved using HTTP.
 
 |=== 
 
 == Contextual XPath references
 
-The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/data-au/3.2/au-as/README#namespaces).
+The namespace prefixes used as described in http://inspire.ec.europa.eu/id/ats/data-au/3.2/au-as/README#namespaces[README.md].
 
 |=== 
 
-*Abbreviation*  |  *XPath expression*
-anchor:nationalLevel[]nationalLevel	| 	//schema-element(au:AdministrativeUnit)/au:nationalLevel/@xlink:href or //schema-element(au3:AdministrativeUnit)/au3:nationalLevel/text()
-anchor:upperLevelUnit[]upperLevelUnit	| 	//schema-element(au:AdministrativeUnit)/au:upperLevelUnit
-anchor:lowerLevelUnit[]lowerLevelUnit	| 	//schema-element(au:AdministrativeUnit)/au:lowerLevelUnit
-anchor:condominium[]condominium 	| 	//schema-element(au:AdministrativeUnit)/au:condominium
+| *Abbreviation*  |  *XPath expression*
+| anchor:nationalLevel[]nationalLevel	| 	//schema-element(au:AdministrativeUnit)/au:nationalLevel/@xlink:href or //schema-element(au3:AdministrativeUnit)/au3:nationalLevel/text()
+| anchor:upperLevelUnit[]upperLevelUnit	| 	//schema-element(au:AdministrativeUnit)/au:upperLevelUnit
+| anchor:lowerLevelUnit[]lowerLevelUnit	| 	//schema-element(au:AdministrativeUnit)/au:lowerLevelUnit
+| anchor:condominium[]condominium 	| 	//schema-element(au:AdministrativeUnit)/au:condominium
 
 |=== 
