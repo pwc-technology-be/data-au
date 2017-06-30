@@ -15,6 +15,7 @@ When an attribute has a code list as its type, verify that the values comply wit
 Otherwise report <<disallowedCodeListValue,disallowedCodeListValue>>.
 
 In the Administrative Units application schema, the following properties have to be tested:
+
 * <<level3,nationalLevel (v3)>>. Valid values:
   ** 1stOrder
   ** 2ndOrder
