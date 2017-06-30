@@ -23,7 +23,7 @@ An indirect dependency is another conformance class whose requirements must be m
 |=== 
 
 | *Specification* | *Conformance class* | *Related resource* | *Parameters*
-| <<ref_TG_DS_AU,TG DS-AU>> | https://github.com/inspire-eu-validation/data-au/blob/3.1/au-gml[GML application schemas, Administrative Units] | INSPIRE spatial data set encoded in GML, Administrative Units features | n/a 
+| <<ref_TG_DS_AU,TG DS-AU>> | https://github.com/pwc-technology-be/data-au/blob/3.1/au-gml[GML application schemas, Administrative Units] | INSPIRE spatial data set encoded in GML, Administrative Units features | n/a 
  
 |=== 
 
